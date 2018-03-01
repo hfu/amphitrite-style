@@ -31,7 +31,7 @@
       },
       "paint": {
         "line-color": "#ef9a9a",
-        "line-width": 4
+        "line-width": 8
       }
     },
     {
@@ -44,7 +44,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#f44336",
+        "line-color": "#ffcdd2",
         "line-width": 4
       }
     },
@@ -58,7 +58,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#c62828",
+        "line-color": "#ffebee",
         "line-width": 2
       }
     },
@@ -128,8 +128,8 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#000000",
-        "line-width": 1
+        "line-color": "#4e342e",
+        "line-width": 4
       }
     },
     {
@@ -142,7 +142,7 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#000000",
+        "line-color": "#757575",
         "line-width": 1
       }
     },
@@ -156,8 +156,8 @@
         "line-cap": "round"
       },
       "paint": {
-        "line-color": "#000000",
-        "line-width": 1
+        "line-color": "#616161",
+        "line-width": 2
       }
     },
     {

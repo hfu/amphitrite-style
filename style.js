@@ -18,16 +18,16 @@ let json = {
 }
 
 const lines = [
-  {name: 'admbdry', color: '#ef9a9a', width: 4},
-  {name: 'commbdry', color: '#f44336', width: 4},
-  {name: 'sbbdry', color: '#c62828', width: 2},
+  {name: 'admbdry', color: '#ef9a9a', width: 8},
+  {name: 'commbdry', color: '#ffcdd2', width: 4},
+  {name: 'sbbdry', color: '#ffebee', width: 2},
   {name: 'cstline', color: '#3f51b5'},
   {name: 'cntr', color: '#795548'},
   {name: 'wl', color: '#2196d3'},
   {name: 'wstrl', color: '#00bcd4'},
-  {name: 'railcl', color: '#000000'},
-  {name: 'rdcompt', color: '#000000'},
-  {name: 'rdedg', color: '#000000'},
+  {name: 'railcl', color: '#4e342e', width: 4},
+  {name: 'rdcompt', color: '#757575'},
+  {name: 'rdedg', color: '#616161', width: 2},
   {name: 'bldl', color: '#9e9e9e'}
 ]
 const points = [
