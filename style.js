@@ -18,13 +18,13 @@ let json = {
 }
 
 const lines = [
+  {name: 'admbdry', color: '#ef9a9a', width: 4},
+  {name: 'commbdry', color: '#f44336', width: 4},
+  {name: 'sbbdry', color: '#c62828', width: 2},
   {name: 'cstline', color: '#3f51b5'},
   {name: 'cntr', color: '#795548'},
   {name: 'wl', color: '#2196d3'},
   {name: 'wstrl', color: '#00bcd4'},
-  {name: 'admbdry', color: '#ef9a9a'},
-  {name: 'commbdry', color: '#f44336'},
-  {name: 'sbbdry', color: '#c62828'},
   {name: 'railcl', color: '#000000'},
   {name: 'rdcompt', color: '#000000'},
   {name: 'rdedg', color: '#000000'},
@@ -43,7 +43,9 @@ for(layer of lines) {
     id: layer.name, type: 'line', 
     source: 'fgd', 'source-layer': layer.name,
     layout: {'line-join': 'round', 'line-cap': 'round'},
-    paint: {'line-color': layer.color, 'line-width': 1}
+    paint: {
+      'line-color': layer.color, 
+      'line-width': layer.width ? layer.width : 1}
   })
 }
 for(layer of points) {

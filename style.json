@@ -21,6 +21,48 @@
       }
     },
     {
+      "id": "admbdry",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "admbdry",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#ef9a9a",
+        "line-width": 4
+      }
+    },
+    {
+      "id": "commbdry",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "commbdry",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#f44336",
+        "line-width": 4
+      }
+    },
+    {
+      "id": "sbbdry",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "sbbdry",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#c62828",
+        "line-width": 2
+      }
+    },
+    {
       "id": "cstline",
       "type": "line",
       "source": "fgd",
@@ -73,48 +115,6 @@
       },
       "paint": {
         "line-color": "#00bcd4",
-        "line-width": 1
-      }
-    },
-    {
-      "id": "admbdry",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "admbdry",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#ef9a9a",
-        "line-width": 1
-      }
-    },
-    {
-      "id": "commbdry",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "commbdry",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#f44336",
-        "line-width": 1
-      }
-    },
-    {
-      "id": "sbbdry",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "sbbdry",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#c62828",
         "line-width": 1
       }
     },
