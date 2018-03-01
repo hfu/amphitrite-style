@@ -25,9 +25,12 @@ const lines = [
   {name: 'cntr', color: '#795548'},
   {name: 'wl', color: '#2196d3'},
   {name: 'wstrl', color: '#00bcd4'},
-  {name: 'railcl', color: '#4e342e', width: 4},
+  {name: 'railcl', color: '#5d4037', width: 3},
   {name: 'rdcompt', color: '#757575'},
-  {name: 'rdedg', color: '#616161', width: 2},
+  {
+    name: 'rdedg', color: '#616161', 
+    width: ['interpolate', ['linear'], ['zoom'], 13, 1, 16, 2]
+  },
   {name: 'bldl', color: '#9e9e9e'}
 ]
 const points = [
