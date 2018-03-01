@@ -40,7 +40,8 @@ for(layer of layers) {
   json.layers.push({
     id: layer.name, type: 'line', 
     source: 'fgd', 'source-layer': layer.name,
-    paint: {'line-color': '#ffffff', 'line-width': 1}
+    layout: {'line-join': 'round', 'line-cap': 'round'},
+    paint: {'line-color': '#000000', 'line-width': 2}
   })
 }
 

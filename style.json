@@ -25,9 +25,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "cstline",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -35,9 +39,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "cntr",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -45,9 +53,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "rdedg",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -55,9 +67,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "elevpt",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -65,9 +81,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "bldl",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -75,9 +95,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "gcp",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -85,9 +109,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "wl",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -95,9 +123,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "admpt",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -105,9 +137,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "rdcompt",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -115,9 +151,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "commbdry",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -125,9 +165,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "admbdry",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -135,9 +179,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "wstrl",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -145,9 +193,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "commpt",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -155,9 +207,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "railcl",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -165,9 +221,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "sbbdry",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     },
     {
@@ -175,9 +235,13 @@
       "type": "line",
       "source": "fgd",
       "source-layer": "sbapt",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
       "paint": {
-        "line-color": "#ffffff",
-        "line-width": 1
+        "line-color": "#000000",
+        "line-width": 2
       }
     }
   ]
