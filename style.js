@@ -53,11 +53,15 @@ for(layer of lines) {
 }
 for(layer of points) {
   json.layers.push({
-    id: layer.name, type: 'circle',
+    id: layer.name, type: 'symbol',
     source: 'fgd', 'source-layer': layer.name,
+    layout: {
+      'text-field': '*',
+      'text-font': ['NotoSansCJKjp-Regular'],
+      'text-size': 11
+    },
     paint: {
-      'circle-radius': 3,
-      'circle-color': layer.color
+      'text-color': layer.color
     }
   })
 }

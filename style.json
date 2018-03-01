@@ -188,52 +188,82 @@
     },
     {
       "id": "elevpt",
-      "type": "circle",
+      "type": "symbol",
       "source": "fgd",
       "source-layer": "elevpt",
+      "layout": {
+        "text-field": "*",
+        "text-font": [
+          "NotoSansCJKjp-Regular"
+        ],
+        "text-size": 11
+      },
       "paint": {
-        "circle-radius": 3,
-        "circle-color": "#ff0000"
+        "text-color": "#ff0000"
       }
     },
     {
       "id": "gcp",
-      "type": "circle",
+      "type": "symbol",
       "source": "fgd",
       "source-layer": "gcp",
+      "layout": {
+        "text-field": "*",
+        "text-font": [
+          "NotoSansCJKjp-Regular"
+        ],
+        "text-size": 11
+      },
       "paint": {
-        "circle-radius": 3,
-        "circle-color": "#ff0000"
+        "text-color": "#ff0000"
       }
     },
     {
       "id": "sbapt",
-      "type": "circle",
+      "type": "symbol",
       "source": "fgd",
       "source-layer": "sbapt",
+      "layout": {
+        "text-field": "*",
+        "text-font": [
+          "NotoSansCJKjp-Regular"
+        ],
+        "text-size": 11
+      },
       "paint": {
-        "circle-radius": 3,
-        "circle-color": "#ff0000"
+        "text-color": "#ff0000"
       }
     },
     {
       "id": "commpt",
-      "type": "circle",
+      "type": "symbol",
       "source": "fgd",
       "source-layer": "commpt",
+      "layout": {
+        "text-field": "*",
+        "text-font": [
+          "NotoSansCJKjp-Regular"
+        ],
+        "text-size": 11
+      },
       "paint": {
-        "circle-radius": 3,
-        "circle-color": "#ff0000"
+        "text-color": "#ff0000"
       }
     },
     {
       "id": "admpt",
-      "type": "circle",
+      "type": "symbol",
       "source": "fgd",
       "source-layer": "admpt",
+      "layout": {
+        "text-field": "*",
+        "text-font": [
+          "NotoSansCJKjp-Regular"
+        ],
+        "text-size": 11
+      },
       "paint": {
-        "circle-radius": 3,
-        "circle-color": "#ff0000"
+        "text-color": "#ff0000"
       }
     }
   ]
