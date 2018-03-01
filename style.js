@@ -18,24 +18,24 @@ let json = {
 }
 
 const lines = [
-  {name: 'cstline', color: '#000000'},
-  {name: 'cntr', color: '#000000'},
-  {name: 'wl', color: '#000000'},
-  {name: 'wstrl', color: '#000000'},
-  {name: 'admbdry', color: '#000000'},
-  {name: 'commbdry', color: '#000000'},
-  {name: 'sbbdry', color: '#000000'},
+  {name: 'cstline', color: '#3f51b5'},
+  {name: 'cntr', color: '#795548'},
+  {name: 'wl', color: '#2196d3'},
+  {name: 'wstrl', color: '#00bcd4'},
+  {name: 'admbdry', color: '#ef9a9a'},
+  {name: 'commbdry', color: '#f44336'},
+  {name: 'sbbdry', color: '#c62828'},
   {name: 'railcl', color: '#000000'},
+  {name: 'rdcompt', color: '#000000'},
   {name: 'rdedg', color: '#000000'},
-  {name: 'bldl', color: '#000000'}
+  {name: 'bldl', color: '#9e9e9e'}
 ]
 const points = [
-  {name: 'rdcompt', color: '#000000'},
-  {name: 'elevpt', color: '#000000'},
-  {name: 'gcp', color: '#000000'},
-  {name: 'sbapt', color: '#000000'},
-  {name: 'commpt', color: '#000000'},
-  {name: 'admpt', color: '#000000'}
+  {name: 'elevpt', color: '#ff0000'},
+  {name: 'gcp', color: '#ff0000'},
+  {name: 'sbapt', color: '#ff0000'},
+  {name: 'commpt', color: '#ff0000'},
+  {name: 'admpt', color: '#ff0000'}
 ]
 
 for(layer of lines) {
