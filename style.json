@@ -8,7 +8,7 @@
       "tiles": [
         "https://hfujimura.gitlab.io/fukuoka/{z}/{x}/{y}.pbf"
       ],
-      "attribution": "国土地理院による基盤地図情報（基本項目）のベクトルタイル提供実験データを加工して作成"
+      "attribution": "Produced from GeoJSON Vector Tile Experiment data by Geospatial Information Authority of Japan"
     }
   },
   "glyphs": "https://hfu.github.io/noto-jp/{fontstack}/{range}.pbf",
@@ -31,7 +31,7 @@
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
       }
     },
     {
@@ -45,63 +45,7 @@
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "rdedg",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "rdedg",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "elevpt",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "elevpt",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "bldl",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "bldl",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "gcp",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "gcp",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
       }
     },
     {
@@ -115,63 +59,7 @@
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "admpt",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "admpt",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "rdcompt",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "rdcompt",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "commbdry",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "commbdry",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
-      }
-    },
-    {
-      "id": "admbdry",
-      "type": "line",
-      "source": "fgd",
-      "source-layer": "admbdry",
-      "layout": {
-        "line-join": "round",
-        "line-cap": "round"
-      },
-      "paint": {
-        "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
       }
     },
     {
@@ -185,35 +73,35 @@
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
       }
     },
     {
-      "id": "commpt",
+      "id": "admbdry",
       "type": "line",
       "source": "fgd",
-      "source-layer": "commpt",
+      "source-layer": "admbdry",
       "layout": {
         "line-join": "round",
         "line-cap": "round"
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
       }
     },
     {
-      "id": "railcl",
+      "id": "commbdry",
       "type": "line",
       "source": "fgd",
-      "source-layer": "railcl",
+      "source-layer": "commbdry",
       "layout": {
         "line-join": "round",
         "line-cap": "round"
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
       }
     },
     {
@@ -227,21 +115,109 @@
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
       }
     },
     {
-      "id": "sbapt",
+      "id": "railcl",
       "type": "line",
       "source": "fgd",
-      "source-layer": "sbapt",
+      "source-layer": "railcl",
       "layout": {
         "line-join": "round",
         "line-cap": "round"
       },
       "paint": {
         "line-color": "#000000",
-        "line-width": 2
+        "line-width": 1
+      }
+    },
+    {
+      "id": "rdedg",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "rdedg",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#000000",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "bldl",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "bldl",
+      "layout": {
+        "line-join": "round",
+        "line-cap": "round"
+      },
+      "paint": {
+        "line-color": "#000000",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "rdcompt",
+      "type": "circle",
+      "source": "fgd",
+      "source-layer": "rdcompt",
+      "paint": {
+        "circle-radius": 3,
+        "circle-color": "#000000"
+      }
+    },
+    {
+      "id": "elevpt",
+      "type": "circle",
+      "source": "fgd",
+      "source-layer": "elevpt",
+      "paint": {
+        "circle-radius": 3,
+        "circle-color": "#000000"
+      }
+    },
+    {
+      "id": "gcp",
+      "type": "circle",
+      "source": "fgd",
+      "source-layer": "gcp",
+      "paint": {
+        "circle-radius": 3,
+        "circle-color": "#000000"
+      }
+    },
+    {
+      "id": "sbapt",
+      "type": "circle",
+      "source": "fgd",
+      "source-layer": "sbapt",
+      "paint": {
+        "circle-radius": 3,
+        "circle-color": "#000000"
+      }
+    },
+    {
+      "id": "commpt",
+      "type": "circle",
+      "source": "fgd",
+      "source-layer": "commpt",
+      "paint": {
+        "circle-radius": 3,
+        "circle-color": "#000000"
+      }
+    },
+    {
+      "id": "admpt",
+      "type": "circle",
+      "source": "fgd",
+      "source-layer": "admpt",
+      "paint": {
+        "circle-radius": 3,
+        "circle-color": "#000000"
       }
     }
   ]
