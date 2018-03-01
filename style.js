@@ -34,18 +34,18 @@ const lines = [
   {name: 'bldl', color: '#9e9e9e'}
 ]
 const points = [
-  {name: 'elevpt', color: '#ff0000'},
-  {name: 'gcp', color: '#ff0000'},
-  {name: 'sbapt', color: '#ff0000'},
-  {name: 'commpt', color: '#ff0000'},
-  {name: 'admpt', color: '#ff0000'}
+  {name: 'elevpt', color: '#000000', text: 'elevpt'},
+  {name: 'gcp', color: '#000000', text: 'gcp'},
+  {name: 'sbapt', color: '#000000', text: 'sbapt'},
+  {name: 'commpt', color: '#000000', text: 'commpt'},
+  {name: 'admpt', color: '#000000', text: 'admpt'}
 ]
 
 for(layer of lines) {
   json.layers.push({
     id: layer.name, type: 'line', 
     source: 'fgd', 'source-layer': layer.name,
-    layout: {'line-join': 'round', 'line-cap': 'butt'},
+    layout: {'line-join': 'round', 'line-cap': 'square'},
     paint: {
       'line-color': layer.color, 
       'line-width': layer.width ? layer.width : 1}
@@ -56,7 +56,7 @@ for(layer of points) {
     id: layer.name, type: 'symbol',
     source: 'fgd', 'source-layer': layer.name,
     layout: {
-      'text-field': '*',
+      'text-field': layer.text,
       'text-font': ['NotoSansCJKjp-Regular'],
       'text-size': 11
     },
