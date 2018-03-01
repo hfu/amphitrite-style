@@ -22,14 +22,14 @@ const lines = [
   {name: 'commbdry', color: '#ffcdd2', width: 4},
   {name: 'sbbdry', color: '#ffebee', width: 2},
   {name: 'cstline', color: '#3f51b5'},
-  {name: 'cntr', color: '#795548'},
+  {name: 'cntr', color: '#795548', width: 2},
   {name: 'wl', color: '#2196d3'},
   {name: 'wstrl', color: '#00bcd4'},
   {name: 'railcl', color: '#5d4037', width: 3},
   {name: 'rdcompt', color: '#757575'},
   {
     name: 'rdedg', color: '#616161', 
-    width: ['interpolate', ['linear'], ['zoom'], 13, 1, 16, 2]
+    width: ['interpolate', ['linear'], ['zoom'], 14, 1, 16, 2]
   },
   {name: 'bldl', color: '#9e9e9e'}
 ]
@@ -45,7 +45,7 @@ for(layer of lines) {
   json.layers.push({
     id: layer.name, type: 'line', 
     source: 'fgd', 'source-layer': layer.name,
-    layout: {'line-join': 'round', 'line-cap': 'round'},
+    layout: {'line-join': 'round', 'line-cap': 'butt'},
     paint: {
       'line-color': layer.color, 
       'line-width': layer.width ? layer.width : 1}
