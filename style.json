@@ -1,0 +1,184 @@
+{
+  "version": 8,
+  "sources": {
+    "fgd": {
+      "type": "vector",
+      "minzoom": 10,
+      "maxzoom": 16,
+      "tiles": [
+        "https://hfujimura.gitlab.io/fukuoka/{z}/{x}/{y}.pbf"
+      ],
+      "attribution": "国土地理院による基盤地図情報（基本項目）のベクトルタイル提供実験データを加工して作成"
+    }
+  },
+  "glyphs": "https://hfu.github.io/noto-jp/{fontstack}/{range}.pbf",
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": {
+        "background-color": "#ffffff"
+      }
+    },
+    {
+      "id": "cstline",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "cstline",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "cntr",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "cntr",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "rdedg",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "rdedg",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "elevpt",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "elevpt",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "bldl",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "bldl",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "gcp",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "gcp",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "wl",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "wl",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "admpt",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "admpt",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "rdcompt",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "rdcompt",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "commbdry",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "commbdry",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "admbdry",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "admbdry",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "wstrl",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "wstrl",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "commpt",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "commpt",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "railcl",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "railcl",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "sbbdry",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "sbbdry",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    },
+    {
+      "id": "sbapt",
+      "type": "line",
+      "source": "fgd",
+      "source-layer": "sbapt",
+      "paint": {
+        "line-color": "#ffffff",
+        "line-width": 1
+      }
+    }
+  ]
+}

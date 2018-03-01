@@ -1,0 +1,19 @@
+{
+  "name": "amphitrite-style",
+  "version": "1.0.0",
+  "description": "Mapbox Style for amphitrite-generated vector tiles",
+  "main": "style.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfu/amphitrite-style.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hfu/amphitrite-style/issues"
+  },
+  "homepage": "https://github.com/hfu/amphitrite-style#readme"
+}
